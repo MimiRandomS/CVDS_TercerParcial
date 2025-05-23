@@ -72,16 +72,8 @@ spring.data.mongodb.database=ECISalud
 
 ---
 
-## 5. Pruebas en Postman
-
-### **Crear un pago**
-#### Aprobado
-![postman1.png](assets%2Fimgs%2Fpostman1.png)
-#### Declinado
-![postman3.png](assets%2Fimgs%2Fpostman3.png)
-
-### **Obtener todos los pagos**
-![postman2.png](assets%2Fimgs%2Fpostman2.png)
+## 5. Pruebas en Swagger
+![swagger.png](assets%2Fimgs%2Fswagger.png)
 
 ## 6. Creación del CORS para peticiones cruzadas con el frontend
 

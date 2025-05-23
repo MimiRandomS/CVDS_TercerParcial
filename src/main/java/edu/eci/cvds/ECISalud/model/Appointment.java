@@ -16,6 +16,67 @@ public class Appointment {
     private String idAppointment;
     private User user;
     private String dateAppointment;
+    private Speciality speciality;
+    private String nameDoctor;
+    private String ubication;
+
+    public String getIdAppointment() {
+        return idAppointment;
+    }
+
+    public void setIdAppointment(String idAppointment) {
+        this.idAppointment = idAppointment;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public String getDateAppointment() {
+        return dateAppointment;
+    }
+
+    public void setDateAppointment(String dateAppointment) {
+        this.dateAppointment = dateAppointment;
+    }
+
+    public Speciality getSpeciality() {
+        return speciality;
+    }
+
+    public void setSpeciality(Speciality speciality) {
+        this.speciality = speciality;
+    }
+
+    public String getNameDoctor() {
+        return nameDoctor;
+    }
+
+    public void setNameDoctor(String nameDoctor) {
+        this.nameDoctor = nameDoctor;
+    }
+
+    public String getUbication() {
+        return ubication;
+    }
+
+    public void setUbication(String ubication) {
+        this.ubication = ubication;
+    }
+
+    public Status getAppointmentStatus() {
+        return appointmentStatus;
+    }
+
+    public void setAppointmentStatus(Status appointmentStatus) {
+        this.appointmentStatus = appointmentStatus;
+    }
+
+    private Status appointmentStatus;
 
     public Appointment(User user, String dateAppointment, Speciality speciality, String nameDoctor, String ubication, Status appointmentStatus) {
         this.user = user;
@@ -25,9 +86,4 @@ public class Appointment {
         this.ubication = ubication;
         this.appointmentStatus = appointmentStatus;
     }
-
-    private Speciality speciality;
-    private String nameDoctor;
-    private String ubication;
-    private Status appointmentStatus;
 }
