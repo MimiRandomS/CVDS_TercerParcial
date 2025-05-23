@@ -74,6 +74,11 @@ spring.data.mongodb.database=ECISalud
 
 ## 5. Pruebas en Swagger
 ![swagger.png](assets%2Fimgs%2Fswagger.png)
+### Crear Cita
+![CrearAppointment.png](assets%2Fimgs%2FCrearAppointment.png)
+### Obtener especialidades
+![ObtenerSpecialities.png](assets%2Fimgs%2FObtenerSpecialities.png)
+
 
 ## 6. Creación del CORS para peticiones cruzadas con el frontend
 
