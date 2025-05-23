@@ -1,4 +1,4 @@
-# Segundo Parcial
+# Tercer Parcial
 * Nombre: Geronimo Martinez Nuñez
 ## 1. Generación de la estructura del proyecto con Spring Initializr
 
@@ -49,9 +49,10 @@ C:.
                             └───service
 
 ```
-
+### **Modelo de clases**
+![model.png](assets%2Fimgs%2Fmodel.png)
 ### **Diagrama de Componentes del Backend**
-![componentes.jpg](assets%2Fimgs%2Fcomponentes.jpg)
+![Componentes.png](assets%2Fimgs%2FComponentes.png)
 
 ## 3. Conexión con MongoDB
 Para establecer la conexión con MongoDB, agregamos las siguientes configuraciones en `application.properties`:
